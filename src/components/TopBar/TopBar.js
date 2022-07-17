@@ -6,13 +6,19 @@ import "./TopBar.module.scss";
 function TopBar(props) {
   return (
     <nav>
-      <h1>{props.title}</h1>
+      <div>
+        <h1>{props.title}</h1>
+      </div>
+      <div>
+        <p>Score: {props.score}</p>
+      </div>
     </nav>
   );
 }
 
 TopBar.propTypes = {
   title: PropTypes.string,
+  score: PropTypes.string,
 };
 
 export default TopBar;
