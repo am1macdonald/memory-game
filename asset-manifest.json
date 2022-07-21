@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.53f009d6.css",
-    "main.js": "/static/js/main.001c2bb3.js",
-    "static/media/erik-mclean-27kCu7bXGEI-unsplash.jpg": "/static/media/erik-mclean-27kCu7bXGEI-unsplash.05ec02d5e32162d6e4b6.jpg",
-    "static/media/icons8-storm-marvel-500.png": "/static/media/icons8-storm-marvel-500.9d507c1151b8de023437.png",
-    "static/media/icons8-jean-grey-500.png": "/static/media/icons8-jean-grey-500.d3040248499619c4eae5.png",
-    "static/media/icons8-magneto-500.png": "/static/media/icons8-magneto-500.3daa60575c77de6060cb.png",
-    "static/media/icons8-professor-x-500.png": "/static/media/icons8-professor-x-500.923463cb6cfe87ca5a65.png",
-    "static/media/icons8-gambit-500.png": "/static/media/icons8-gambit-500.8c228c225912526520f3.png",
-    "static/media/icons8-mystique-500.png": "/static/media/icons8-mystique-500.823ce36fbdfa31056b71.png",
-    "static/media/icons8-beast-500.png": "/static/media/icons8-beast-500.9406ac1eec32fc2a470a.png",
-    "static/media/icons8-wolverine-500.png": "/static/media/icons8-wolverine-500.22b69e8d62e58b6a25f9.png",
-    "static/media/icons8-deadpool-500.png": "/static/media/icons8-deadpool-500.0f72063acca67d475f51.png",
-    "static/media/icons8-cyclops-marvel-500.png": "/static/media/icons8-cyclops-marvel-500.07be26feceac6a236588.png",
-    "index.html": "/index.html",
-    "main.53f009d6.css.map": "/static/css/main.53f009d6.css.map",
-    "main.001c2bb3.js.map": "/static/js/main.001c2bb3.js.map"
+    "main.css": "/memory-game/static/css/main.53f009d6.css",
+    "main.js": "/memory-game/static/js/main.8a7796b2.js",
+    "static/media/erik-mclean-27kCu7bXGEI-unsplash.jpg": "/memory-game/static/media/erik-mclean-27kCu7bXGEI-unsplash.05ec02d5e32162d6e4b6.jpg",
+    "static/media/icons8-storm-marvel-500.png": "/memory-game/static/media/icons8-storm-marvel-500.9d507c1151b8de023437.png",
+    "static/media/icons8-jean-grey-500.png": "/memory-game/static/media/icons8-jean-grey-500.d3040248499619c4eae5.png",
+    "static/media/icons8-magneto-500.png": "/memory-game/static/media/icons8-magneto-500.3daa60575c77de6060cb.png",
+    "static/media/icons8-professor-x-500.png": "/memory-game/static/media/icons8-professor-x-500.923463cb6cfe87ca5a65.png",
+    "static/media/icons8-gambit-500.png": "/memory-game/static/media/icons8-gambit-500.8c228c225912526520f3.png",
+    "static/media/icons8-mystique-500.png": "/memory-game/static/media/icons8-mystique-500.823ce36fbdfa31056b71.png",
+    "static/media/icons8-beast-500.png": "/memory-game/static/media/icons8-beast-500.9406ac1eec32fc2a470a.png",
+    "static/media/icons8-wolverine-500.png": "/memory-game/static/media/icons8-wolverine-500.22b69e8d62e58b6a25f9.png",
+    "static/media/icons8-deadpool-500.png": "/memory-game/static/media/icons8-deadpool-500.0f72063acca67d475f51.png",
+    "static/media/icons8-cyclops-marvel-500.png": "/memory-game/static/media/icons8-cyclops-marvel-500.07be26feceac6a236588.png",
+    "index.html": "/memory-game/index.html",
+    "main.53f009d6.css.map": "/memory-game/static/css/main.53f009d6.css.map",
+    "main.8a7796b2.js.map": "/memory-game/static/js/main.8a7796b2.js.map"
   },
   "entrypoints": [
     "static/css/main.53f009d6.css",
-    "static/js/main.001c2bb3.js"
+    "static/js/main.8a7796b2.js"
   ]
 }
