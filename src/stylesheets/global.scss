@@ -1,20 +1,38 @@
+* {
+  color: white;
+}
+
 body {
   overflow: hidden;
 }
 
 nav {
-  display: flex;
-  justify-content: space-between;
+  box-sizing: border-box;
+
+  padding: 0 1vw 0 1vw;
   width: 100vw;
-  height: 10vh;
-  background-color: black;
-  color: white;
-  font-size: 4rem;
+  height: 8vh;
+
+  background: rgba(0, 0, 0, 0.9);
+  opacity: 0.8;
+}
+
+h1 {
+  font-size: clamp(1.5rem, 5vmin, 4rem);
+}
+h2 {
+  font-size: clamp(1.4rem, 4vmin, 3rem);
+}
+h3 {
+  font-size: clamp(1.3rem, 3vmin, 2.4rem);
+}
+p {
+  font-size: 1rem;
 }
 
 .main {
   width: 100vw;
-  height: 85vh;
+  height: 87vh;
 }
 
 .footer {
