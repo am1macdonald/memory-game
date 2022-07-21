@@ -1,15 +1,15 @@
 import React from "react";
 import PropTypes from "prop-types";
 // eslint-disable-next-line no-unused-vars
-import "./TopBar.module.scss";
+import styles from "./TopBar.module.scss";
 
 function TopBar(props) {
   return (
-    <nav>
-      <div>
+    <nav className={styles.nav}>
+      <div className={styles.inline}>
         <h1>{props.title}</h1>
       </div>
-      <div>
+      <div className={styles.inline}>
         <p>Score: {props.score}</p>
       </div>
     </nav>

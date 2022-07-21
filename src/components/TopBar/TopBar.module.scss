@@ -1,7 +1,13 @@
-nav {
+.nav {
+  display: flex;
+  justify-content: space-between;
   width: 100vw;
   height: auto;
   background-color: black;
   color: white;
   font-size: 4rem;
+}
+
+.inline {
+  display: inline-block;
 }
