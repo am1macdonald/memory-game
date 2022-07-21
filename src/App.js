@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import Grid from "./components/GameGrid/Grid";
 import TopBar from "./components/TopBar/TopBar";
+import BottomBar from "./components/BottomBar/BottomBar";
 
 function App() {
   const [score, setScore] = useState(0);
@@ -9,7 +10,7 @@ function App() {
   const endGame = () => {
     console.log("Game over!!");
     setScore(0);
-    setMap({})
+    setMap({});
   };
 
   const handleClick = (e) => {
@@ -25,17 +26,20 @@ function App() {
       ...prevMap,
       [e.target.id]: undefined,
     }));
-    console.log(map)
+    console.log(map);
   };
 
   return (
-    <div>
+    <div className="app">
       <TopBar
         title={"Character Memory Game"}
         score={score.toString()}
         incrementScore={() => setScore(score + 1)}
       />
-      <Grid handleClick={handleClick} />
+      <div className="main center">
+        <Grid handleClick={handleClick} />
+      </div>
+      <BottomBar />
     </div>
   );
 }
