@@ -1,5 +1,22 @@
 .bottomBar {
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
+
+  justify-content: space-between;
+
+  width: clamp(300px, 50vw, 500px);
+
+  padding: 0 2vw;
+  background: rgba(0, 0, 0, 0.8);
+  color: white;
+
+  border-radius: 10px 10px 0 0;
   a {
-    color: black;
+    cursor: pointer;
+    color: skyblue;
   }
+}
+.right {
+  text-align: right;
 }
