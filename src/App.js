@@ -4,18 +4,6 @@ import TopBar from "./components/TopBar/TopBar";
 
 function App() {
   const [score, setScore] = useState(0);
-  // const [level, setLevel] = useState(1);
-
-  // const maxLevel = 5;
-
-  // const getRequiredScore = () => {
-  //   return level * 2;
-  // };
-
-  // const checkLevelComplete = () => {
-  //   // score >= getRequiredScore();
-  //   console.log(score >= getRequiredScore());
-  // };
 
   const endGame = () => {
     console.log("Game over!!");
