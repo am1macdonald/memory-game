@@ -1,14 +1,14 @@
 import React from "react";
 import PropTypes from "prop-types";
-import "./Card.module.scss";
+import styles from "./Card.module.scss";
 
 
 
 function Card(props) {
 
   return (
-    <div id={props.id} className="card" onClick={props.handleClick}>
-      <img src={props.src} alt={props.alt} />
+    <div  className={styles.card} >
+      <img className={styles.img} src={props.src} alt={props.alt} id={props.id} onClick={props.handleClick}/>
     </div>
   );
 }
