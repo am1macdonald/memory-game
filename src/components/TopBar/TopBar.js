@@ -9,7 +9,7 @@ function TopBar(props) {
       <div className={styles.inline}>
         <h1>{props.title}</h1>
       </div>
-      <div className={styles.inline}>
+      <div className={`${styles.mono} ${styles.inline}`}>
         <h3>Score: {props.score}</h3>
       </div>
     </nav>
