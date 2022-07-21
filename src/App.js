@@ -26,7 +26,6 @@ function App() {
       ...prevMap,
       [e.target.id]: undefined,
     }));
-    console.log(map);
   };
 
   return (
