@@ -7,7 +7,7 @@ import styles from "./Card.module.scss";
 function Card(props) {
 
   return (
-    <div  className={styles.card}>
+    <div  className={`${styles.card} center`}>
       <img className={styles.img} src={props.src} alt={props.alt} id={props.id} onClick={props.handleClick}/>
     </div>
   );

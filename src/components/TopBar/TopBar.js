@@ -5,12 +5,12 @@ import styles from "./TopBar.module.scss";
 
 function TopBar(props) {
   return (
-    <nav className={styles.nav}>
+    <nav className={`center ${styles.nav}`}>
       <div className={styles.inline}>
         <h1>{props.title}</h1>
       </div>
       <div className={styles.inline}>
-        <p>Score: {props.score}</p>
+        <h3>Score: {props.score}</h3>
       </div>
     </nav>
   );

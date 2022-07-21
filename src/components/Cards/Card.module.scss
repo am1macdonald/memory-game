@@ -1,13 +1,21 @@
 .card {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   width: 15vw;
   height: 15vw;
-  background-color: black;
+  background-color: rgba(145, 145, 145, 0.514);
+
+  border-radius: 50%;
 }
 
 .img {
-  max-width: 100%;
+  width: 100%;
   cursor: pointer;
+}
+
+@media only screen and (max-width: 868px) {
+  @media only screen and (max-aspect-ratio: 4/3) {
+    .card {
+      width: 15vh;
+      height: 15vh;
+    }
+  }
 }
