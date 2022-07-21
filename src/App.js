@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import Grid from "./components/GameGrid/Grid";
+import CreditGrid from "./components/GameGrid/CreditGrid"
 import TopBar from "./components/TopBar/TopBar";
 import BottomBar from "./components/BottomBar/BottomBar";
 import Rules from "./components/popups/Rules";
@@ -11,6 +12,7 @@ function App() {
   const [map, setMap] = useState({});
   const [rulesDisplay, setRulesDisplay] = useState(true);
   const [gameOver, setGameOver] = useState(false);
+  const [creditMode, setCreditMode] = useState(false);
 
   const endGame = () => {
     setScore(0);
@@ -56,9 +58,11 @@ function App() {
         incrementScore={() => setScore(score + 1)}
       />
       <div className="main center">
-        {!rulesDisplay && !gameOver && <Grid handleClick={handleClick} />}
+        {!creditMode && !rulesDisplay && !gameOver && <Grid handleClick={handleClick} />}
+
+        {creditMode && !rulesDisplay && !gameOver && <CreditGrid />}
       </div>
-      <BottomBar />
+      <BottomBar toggleCredits={() => setCreditMode(!creditMode)}/>
     </div>
   );
 }

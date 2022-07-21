@@ -1,11 +1,13 @@
 import React from "react";
+import PropTypes from 'prop-types'
 import styles from "./BottomBar.module.scss";
 
-function BottomBar() {
+
+function BottomBar(props) {
   return (
     <div className={`center footer ${styles.bottomBar}`}>
       <span>
-        <a>Icon Credits</a>
+        <a onClick={props.toggleCredits}>Icon Credits</a>
       </span>
       <span className={styles.right}>
         Background photo by{" "}
@@ -21,4 +23,7 @@ function BottomBar() {
   );
 }
 
+BottomBar.propTypes = {
+  toggleCredits: PropTypes.func
+}
 export default BottomBar;

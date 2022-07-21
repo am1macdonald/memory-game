@@ -5,6 +5,18 @@
   grid-column-gap: 2vw;
 }
 
+.background {
+  box-sizing: border-box;
+  margin: 0 10vw;
+  height: auto;
+  width: auto;
+  padding: 5vmin;
+
+  background: rgba(0, 0, 0, 0.8);
+
+  border-radius: 5px;
+}
+
 @media only screen and (max-width: 868px) {
   @media only screen and (max-aspect-ratio: 4/3) {
     .grid {
