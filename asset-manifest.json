@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/memory-game/static/css/main.53f009d6.css",
+    "main.css": "/memory-game/static/css/main.6a6a79f8.css",
     "main.js": "/memory-game/static/js/main.8a7796b2.js",
     "static/media/erik-mclean-27kCu7bXGEI-unsplash.jpg": "/memory-game/static/media/erik-mclean-27kCu7bXGEI-unsplash.05ec02d5e32162d6e4b6.jpg",
     "static/media/icons8-storm-marvel-500.png": "/memory-game/static/media/icons8-storm-marvel-500.9d507c1151b8de023437.png",
@@ -14,11 +14,11 @@
     "static/media/icons8-deadpool-500.png": "/memory-game/static/media/icons8-deadpool-500.0f72063acca67d475f51.png",
     "static/media/icons8-cyclops-marvel-500.png": "/memory-game/static/media/icons8-cyclops-marvel-500.07be26feceac6a236588.png",
     "index.html": "/memory-game/index.html",
-    "main.53f009d6.css.map": "/memory-game/static/css/main.53f009d6.css.map",
+    "main.6a6a79f8.css.map": "/memory-game/static/css/main.6a6a79f8.css.map",
     "main.8a7796b2.js.map": "/memory-game/static/js/main.8a7796b2.js.map"
   },
   "entrypoints": [
-    "static/css/main.53f009d6.css",
+    "static/css/main.6a6a79f8.css",
     "static/js/main.8a7796b2.js"
   ]
 }
